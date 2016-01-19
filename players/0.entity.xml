@@ -1,0 +1,6 @@
+
+<entity bz="19192" anim="Break" displayName="0" class="Player" item_id="30002" bx="19258" by="5" name="default" facing="2.9364414215088">
+	<teleport_list>{}
+	</teleport_list>
+	<abilities/>
+</entity>

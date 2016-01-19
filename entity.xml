@@ -1,0 +1,21 @@
+
+<entities file_version="0.1">
+	<entity class="EntityDesktop" name="desktop">
+		<inventory>
+			<slot count="1" id="10052">{tooltip="作者的话","欢迎来到我的世界#请仔细阅读规则#=到创意论坛来支持我的作品哦~=#[[http://bbs.paraengine.com/forum.php][点我进入论坛]]",}
+			</slot>
+			<slot count="1" id="10060">{tooltip="到论坛支持作者 给作者留言[bbs]","http://bbs.paraengine.com/forum.php?mod=forumdisplay&amp;fid=50",}
+			</slot>
+		</inventory>
+	</entity>
+	<entity filename="" IsSimulatedSky="true" rainStrength="0" snowStrength="0" class="EntitySky" name="sky"/>
+	<entity bz="19191" bx="19259" name="player_spawn_point" class="EntityHomePoint" item_id="20002" by="5">
+		<cmd><![CDATA[/mode game
+/time 0
+/renderdist 100
+/sky sim
+/clearbag
+/shader 2]]>
+		</cmd>
+	</entity>
+</entities>
